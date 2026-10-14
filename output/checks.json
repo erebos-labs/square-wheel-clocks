@@ -1,0 +1,211 @@
+{
+  "quadrature": {
+    "3": {
+      "32": 1.0059890473979038e-06,
+      "64": 6.330849755542545e-08,
+      "128": 3.963672945417329e-09,
+      "256": 2.4783841645614757e-10
+    },
+    "4": {
+      "32": 6.257571982803967e-08,
+      "64": 3.917865032398993e-09,
+      "128": 2.4497415207491713e-10,
+      "256": 1.5312973111747397e-11
+    },
+    "5": {
+      "32": 1.2100158541805683e-08,
+      "64": 7.568631277266036e-10,
+      "128": 4.731359748433306e-11,
+      "256": 2.9568569814841794e-12
+    },
+    "8": {
+      "32": 6.810194630446631e-10,
+      "64": 4.257250107997379e-11,
+      "128": 2.6608715231191127e-12,
+      "256": 1.6631140908884845e-13
+    },
+    "12": {
+      "32": 7.498174303677274e-11,
+      "64": 4.686695476152636e-12,
+      "128": 2.928768338961163e-13,
+      "256": 1.8096635301390052e-14
+    }
+  },
+  "frozen_contact_velocity": {
+    "0.001": {
+      "interior_max": 9.383842591859093e-07,
+      "cusp_max": 0.0007061646196127036
+    },
+    "0.0001": {
+      "interior_max": 9.384160181318375e-09,
+      "cusp_max": 7.070125096486635e-05
+    },
+    "1e-05": {
+      "interior_max": 1.0053497077208612e-10,
+      "cusp_max": 7.070988239377129e-06
+    },
+    "1e-06": {
+      "interior_max": 2.220446049250313e-10,
+      "cusp_max": 7.072120666862247e-07
+    }
+  },
+  "contact_identity_max_error": 1.3322676295501878e-15,
+  "continuous_edge_clearance": {
+    "3": {
+      "poses": 2001,
+      "minimum_gap": -0.09521594900588992,
+      "phi": -0.6188937527571892,
+      "point": [
+        -1.4933221735102895,
+        -1.819343077298441
+      ],
+      "edge_parameter": 0.0,
+      "edge": 2
+    },
+    "4": {
+      "poses": 2001,
+      "minimum_gap": -4.440892098500626e-16,
+      "phi": -0.7853981633974483,
+      "point": [
+        -0.8813735870195434,
+        -1.414213562373095
+      ],
+      "edge_parameter": 1.0,
+      "edge": 2
+    },
+    "5": {
+      "poses": 2001,
+      "minimum_gap": -2.220446049250313e-16,
+      "phi": -0.6283185307179586,
+      "point": [
+        -0.6742754776268169,
+        -1.2360679774997896
+      ],
+      "edge_parameter": 1.0,
+      "edge": 3
+    },
+    "6": {
+      "poses": 2001,
+      "minimum_gap": -4.440892098500626e-16,
+      "phi": -0.5235987755982988,
+      "point": [
+        -0.5493061443340553,
+        -1.1547005383792515
+      ],
+      "edge_parameter": 1.0,
+      "edge": 4
+    },
+    "8": {
+      "poses": 2001,
+      "minimum_gap": -4.440892098500626e-16,
+      "phi": -0.39269908169872414,
+      "point": [
+        -0.40319971916151226,
+        -1.082392200292394
+      ],
+      "edge_parameter": 0.0,
+      "edge": 7
+    },
+    "12": {
+      "poses": 2001,
+      "minimum_gap": -2.220446049250313e-16,
+      "phi": -0.2617993877991494,
+      "point": [
+        -0.2648422477610467,
+        -1.035276180410083
+      ],
+      "edge_parameter": 1.0,
+      "edge": 10
+    }
+  },
+  "edge_oracle_cross_check": {
+    "segments": 300,
+    "samples_per_segment": 4001,
+    "seed": 1960,
+    "max_dense_minus_exact": 3.6784993917571285e-07
+  },
+  "square_metrics": {
+    "apothem": 1,
+    "side": 2,
+    "arch_half_width": 0.8813735870195429,
+    "road_period": 1.7627471740390859,
+    "arch_drop": 0.41421356237309515,
+    "road_arc_length_per_arch": 2,
+    "flat_road_axle_bob": 0.41421356237309515,
+    "constant_omega_min_speed": 1,
+    "constant_omega_max_speed": 1.4142135623730951,
+    "constant_omega_mean_speed": 1.1221997046783603,
+    "constant_omega_acceleration_left_of_cusp": 1.4142135623730951,
+    "constant_omega_acceleration_right_of_cusp": -1.4142135623730951,
+    "constant_v_min_omega": 0.7071067811865475,
+    "constant_v_max_omega": 1,
+    "uniform_lamina_free_min_speed": 0.7745966692414834,
+    "uniform_lamina_free_max_speed": 0.8660254037844386,
+    "uniform_lamina_free_speed_ratio": 1.1180339887498947
+  },
+  "equal_arcs_counterexample": [
+    {
+      "theta": 0.1,
+      "wheel_arc": 0.10033467208545054,
+      "road_arc": 0.10033467208545052,
+      "contact": [
+        0.10033467208545052,
+        -1.0
+      ],
+      "velocity_per_unit_rotation": [
+        0.010067046422494785,
+        0.10033467208545055
+      ],
+      "speed": 0.10083844428672804
+    },
+    {
+      "theta": 0.25,
+      "wheel_arc": 0.25534192122103627,
+      "road_arc": 0.25534192122103627,
+      "contact": [
+        0.25534192122103627,
+        -1.0
+      ],
+      "velocity_per_unit_rotation": [
+        0.06519949673284997,
+        0.25534192122103627
+      ],
+      "speed": 0.2635345728876323
+    },
+    {
+      "theta": 0.5,
+      "wheel_arc": 0.5463024898437905,
+      "road_arc": 0.5463024898437905,
+      "contact": [
+        0.5463024898437905,
+        -1.0
+      ],
+      "velocity_per_unit_rotation": [
+        0.2984464104095248,
+        0.5463024898437905
+      ],
+      "speed": 0.6225083696592805
+    },
+    {
+      "theta": 0.7,
+      "wheel_arc": 0.8422883804630793,
+      "road_arc": 0.8422883804630792,
+      "contact": [
+        0.8422883804630792,
+        -1.0
+      ],
+      "velocity_per_unit_rotation": [
+        0.709449715863117,
+        0.8422883804630794
+      ],
+      "speed": 1.1012577424024652
+    }
+  ],
+  "status": "PASS",
+  "limits": [
+    "Geometry and kinematics only; no empirical ride or contact-force simulation.",
+    "Clearance is continuous along edges but sampled at 2001 pose angles per polygon.",
+    "Finite differences at cusps converge more slowly because acceleration has a jump.",
+    "Free-speed calculation assumes energy conservation and maintained no-slip contact."
+  ]
+}

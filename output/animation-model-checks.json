@@ -1,0 +1,8 @@
+{
+  "frames_per_clock": 120,
+  "clocks": 2,
+  "inverse_position_max_error": 4.440892098500626e-16,
+  "minimum_gap_all_animation_poses": -4.440892098500626e-16,
+  "constant_v_rotation_monotone": true,
+  "status": "PASS"
+}

@@ -1,0 +1,35 @@
+{
+  "level-is-not-constant-speed.png": {
+    "dimensions": [
+      1440,
+      1310
+    ],
+    "frames": 1,
+    "bytes": 85825
+  },
+  "contact-is-not-clearance.png": {
+    "dimensions": [
+      1440,
+      1090
+    ],
+    "frames": 1,
+    "bytes": 75888
+  },
+  "animation-frame-montage.png": {
+    "dimensions": [
+      1920,
+      1720
+    ],
+    "frames": 1,
+    "bytes": 97072
+  },
+  "two-clocks.gif": {
+    "dimensions": [
+      960,
+      860
+    ],
+    "frames": 120,
+    "bytes": 2978184,
+    "total_duration_ms": 7200
+  }
+}

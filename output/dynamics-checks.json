@@ -1,0 +1,61 @@
+{
+  "assumptions": "Conditional free rolling of one uniform square lamina, with a=m=g=1.\n\nA point-contact idealization; no air drag, bearing load, rider, axle force,\nrolling resistance, deformation or cusp impact law. One-sided force\nrequirements are computed on smooth portions, not a frictional simulation.",
+  "square_I_over_ma2": 0.6666666666666666,
+  "ode_runs": [
+    {
+      "steps": 32,
+      "face_time": 1.3365336520368987,
+      "final_omega": 0.9999999975516793,
+      "max_energy_error": 7.575550431404565e-08,
+      "max_omega_error": 3.593399022783217e-08
+    },
+    {
+      "steps": 64,
+      "face_time": 1.336533654116078,
+      "final_omega": 0.9999999999232113,
+      "max_energy_error": 4.841986811499055e-09,
+      "max_omega_error": 2.2967558965802937e-09
+    },
+    {
+      "steps": 128,
+      "face_time": 1.336533654297196,
+      "final_omega": 0.9999999999975989,
+      "max_energy_error": 3.0591018607140086e-10,
+      "max_omega_error": 1.4510592727390303e-10
+    },
+    {
+      "steps": 256,
+      "face_time": 1.3365336543100983,
+      "final_omega": 0.9999999999999233,
+      "max_energy_error": 1.921840464547131e-11,
+      "max_omega_error": 9.11604125519716e-12
+    }
+  ],
+  "one_sided_force_checks": [
+    {
+      "energy_per_mass_in_units_ag": 0.01,
+      "min_normal_per_mass_in_units_g": 0.7089817811865475,
+      "max_required_mu": 0.9947107244508822,
+      "worst_delta": -0.7853981633974483,
+      "torque_residual": 1.734723475976807e-18,
+      "constraint_residual": 3.469446951953614e-18
+    },
+    {
+      "energy_per_mass_in_units_ag": 0.5,
+      "min_normal_per_mass_in_units_g": 0.8008567811865476,
+      "max_required_mu": 0.7658757415749161,
+      "worst_delta": -0.7853981633974483,
+      "torque_residual": 8.326672684688674e-17,
+      "constraint_residual": 1.942890293094024e-16
+    },
+    {
+      "energy_per_mass_in_units_ag": 1.3333333333333333,
+      "min_normal_per_mass_in_units_g": 0.9571067811865475,
+      "max_required_mu": 0.4775922500725171,
+      "worst_delta": -0.7853981633974483,
+      "torque_residual": 1.6653345369377348e-16,
+      "constraint_residual": 5.551115123125783e-16
+    }
+  ],
+  "status": "PASS"
+}

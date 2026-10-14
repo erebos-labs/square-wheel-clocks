@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 32,
+      "sha256": "7b1612956e9bdcba7cebd225a33153cc066e4d2dbf51211876fedf63cfee2807"
+    },
+    {
+      "path": "COPYRIGHT.md",
+      "bytes": 1263,
+      "sha256": "0aa7190d2dc7c133204dacf5c46e17e282c1761b6bc28ac6c0b0b1e6ec5507d5"
+    },
+    {
+      "path": "DESCRIPTION.md",
+      "bytes": 498,
+      "sha256": "10009bde402543eb3c01b0e280cfb3ff635fae671f5d64e2683b0c15ef0bc568"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "04690d463ba7d13b6b853229a5b1eefefd0b346e063a55967ba2f75f06038a6c"
+    },
+    {
+      "path": "LICENSE-CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 1988,
+      "sha256": "cf47c2b06173a7125fbf0e1e8d8188c15b178bbf5de7ae5ec9a71e320d511771"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5639,
+      "sha256": "22c4d44ed0bc3884423bef5242c24ba77bf9d7a95f12c690a7af2ff8051a7d28"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2653,
+      "sha256": "3d65ea18a8913c4a743df9be89a5280d85e5847ea48663f02a336c2c214cae73"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2265,
+      "sha256": "dae03a0c36fdc0094570492d836d85009ad0f1d25286176fb1261093a90b12ed"
+    },
+    {
+      "path": "animation_check.py",
+      "bytes": 981,
+      "sha256": "aa431992e23e27fd8defa2f4f37ce8a66d091e4659cabae1e3402ef06d43df35"
+    },
+    {
+      "path": "build_release.py",
+      "bytes": 1727,
+      "sha256": "88738b7d393ecec43641a07e3fe859118c7eb8b4bfed1706e2a10c38ba1402d0"
+    },
+    {
+      "path": "dynamics.py",
+      "bytes": 3506,
+      "sha256": "bef996114a4d69df1f37ae597ee7b61a9a51731fcdb21a94795592f06fd9a1b9"
+    },
+    {
+      "path": "figures.py",
+      "bytes": 8161,
+      "sha256": "8bcd22d6f2ae17145c25ca5b004a3951352e659eeeb05592aabf7e7339b30654"
+    },
+    {
+      "path": "model.py",
+      "bytes": 3864,
+      "sha256": "d5cf803c3045f343f6e8b17074806cb2f967bd563c036df4f3ba26edd29df00f"
+    },
+    {
+      "path": "output/animation-frame-montage.png",
+      "bytes": 97072,
+      "sha256": "69c0212d19cc024f858029b326386dbf0ddb2cfcf70b12310ca9434bab4bfa91"
+    },
+    {
+      "path": "output/animation-model-checks.json",
+      "bytes": 221,
+      "sha256": "ac4cb95d4d56b1d5637145a0527303e2971c810ec93f067186c1f3b0fe45d623"
+    },
+    {
+      "path": "output/checks.json",
+      "bytes": 5511,
+      "sha256": "d30d5b77cd4bbbfdf8587e68bbbb38f987df218e1d9dea71c022be80b1103173"
+    },
+    {
+      "path": "output/contact-is-not-clearance.png",
+      "bytes": 75888,
+      "sha256": "bfa8c4223a50bff1eda3dedd664d4b4cd0f105eb08b9105108d443744e403147"
+    },
+    {
+      "path": "output/dynamics-checks.json",
+      "bytes": 2187,
+      "sha256": "fa27792d043829a9fa6aa6d839fac4f72736d819527e575b0fdd49da9e728bb7"
+    },
+    {
+      "path": "output/figure-checks.json",
+      "bytes": 532,
+      "sha256": "5f2ce1c2e66739af5d505c4290b00bf3eb806a0b674871b0f65c1e978023fa78"
+    },
+    {
+      "path": "output/level-is-not-constant-speed.png",
+      "bytes": 85825,
+      "sha256": "bc0c24975ec29d9c505430f0f653d2be21494dcb45b47a49aa477dd0e69f8082"
+    },
+    {
+      "path": "output/square-phase-sweep.csv",
+      "bytes": 155645,
+      "sha256": "e406f8f05ff835456a81fe653896e91ac9eb5ea70fd554937f7ff0322dae81bd"
+    },
+    {
+      "path": "output/two-clocks.gif",
+      "bytes": 2978184,
+      "sha256": "1578accdf437f22415950e51c8d82343d6469bee5d59527ec1b5a5acf54459a4"
+    },
+    {
+      "path": "probe.py",
+      "bytes": 6394,
+      "sha256": "aecee6e1cdbc0335cd3da2e235714c8b4f349fedc36c5e244e2ce3a73ee4d8bb"
+    },
+    {
+      "path": "verify_release.py",
+      "bytes": 2366,
+      "sha256": "8bd4048938afadd9fa1e39163c13fa89b8c24baca84cf6384ac3f4343053785c"
+    }
+  ],
+  "manifest_self_hash_excluded": true
+}
